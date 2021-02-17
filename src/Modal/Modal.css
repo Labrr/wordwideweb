@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'ceviche_oneregular';
+    src: url('../Map/Font/cevicheone-regular-webfont.woff2') format('woff2'),
+         url('../Map/Font/cevicheone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1.modalTitle{
+    font-family: 'ceviche_oneregular';
+}

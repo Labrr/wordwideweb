@@ -15,6 +15,66 @@
   color: white;
 } */
 
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+
+div.menu{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  bottom: 10;
+  left: 50;
+  z-index: 99;
+  height: 3em;
+  background: white;
+  width: 100%;
+
+}
+div.formControl{
+  flex: 1;
+  /* width: 100%;   */
+}
+
+div.submit-form{
+  /* display: flex;
+  flex: 1; */
+  justify-content: space-around;
+  flex: 1 1;
+}
+
+div.InputType{
+  display: flex;
+  /* flex: 1; */
+  /* justify-content: space-between; */
+}
+div.actionButtonContainer{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+div.textForm{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+div.InputSpeech{
+  display: flex;
+  width: 100%;
+}
+
+div.mapStyle{
+  position: relative;
+}
+
+div.wordwide{
+  width: 100vw;
+}
+
 div.mapboxgl-ctrl-attrib-inner{
   display:none;
 }
@@ -24,12 +84,6 @@ div.navbar{
 }
 
 
-div.GUI{
-  position: absolute;
-  top: 10;
-  left: 2;
-  
-}
 
 /* For wait animation */
 .App-logo {

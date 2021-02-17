@@ -3,9 +3,17 @@ import firebase from "../Config/config";
 const db = firebase.database().ref("/blablaPoints");
 
 
+// const dbSorted = firebase.database().ref("/blablaPoints").orderBy("timestamp", "desc");
+// var citiesRef = db.collection("cities");
+
+
 const getAll = () => {
+  // console.log(db.orderBy("name"))
   return db;
 };
+// const getAllSorted = () => {
+//   return dbSorted;
+// };
 
 const create = (data) => {
   console.log(data)
@@ -26,6 +34,7 @@ const removeAll = () => {
 
 export default {
   getAll,
+  // getAllSorted,
   create,
   update,
   remove,
