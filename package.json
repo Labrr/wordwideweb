@@ -12,7 +12,6 @@
     "bootstrap": "^4.6.0",
     "firebase": "^8.2.5",
     "mapbox-gl": "^1.13.0",
-   
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.3",
     "react-dom": "^17.0.1",
@@ -45,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "webpack": "^5.22.0"
   }
 }
